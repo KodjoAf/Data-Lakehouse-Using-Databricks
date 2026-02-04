@@ -4,7 +4,7 @@ This repository contains a full Bronze–Silver–Gold Lakehouse implementation 
 
 ---
 
-## 1. The challenges
+## 1. Challenges
 
 • Finance and operations don’t report the same numbers
 
@@ -22,7 +22,7 @@ This repository contains a full Bronze–Silver–Gold Lakehouse implementation 
 
 ---
 
-## 2. The solution
+## 2. Solution
 
 The solution approach consists of designing and implementing a complete Lakehouse architecture following the Medallion pattern—ingesting raw data, transforming it with PySpark, and aggregating it into a star schema to enable fast, self-service analytics.
 
@@ -40,7 +40,7 @@ The solution approach consists of designing and implementing a complete Lakehous
 
 ---
 
-## 3. The solution architecture
+## 3. Solution architecture
 
 <img width="1230" height="760" alt="Screenshot 2026-02-04 134222" src="https://github.com/user-attachments/assets/74801d4b-73f8-4430-a34c-93bd9d9f8847" />
 
