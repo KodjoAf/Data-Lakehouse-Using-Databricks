@@ -37,7 +37,7 @@ To address these challenges, the solution focuses on separating ingestion (Bronz
 
 ---
 
-## 4. Techical Decisions
+## 4. Techincal Decisions
 
 - Lakehouse over traditional DWH to combine scalability, cost efficiency, and advanced analytics 
 - Delta Lake for ACID transactions, time travel, and reliable incremental processing  
