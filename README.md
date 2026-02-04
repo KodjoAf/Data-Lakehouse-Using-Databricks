@@ -9,12 +9,19 @@ This project simulates a retail organization struggling with fragmented data acr
 ## 2. Challenges
 
 • Multiples data sources
+
 • Finance and operations don’t report the same numbers
+
 • Reports are produced too late
+
 • Operations data are difficult to use / not easily actionable
+
 • IT is constantly in firefighting mode
+
 • 80% time on data prep
+
 • Slow query performance
+
 • No self service capability
 
 ---
