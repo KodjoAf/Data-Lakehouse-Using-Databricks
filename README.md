@@ -6,6 +6,8 @@ This repository contains a full Bronze–Silver–Gold Lakehouse implementation 
 
 ## 1. Challenges
 
+• Multiples data sources
+
 • Finance and operations don’t report the same numbers
 
 • Reports are produced too late
