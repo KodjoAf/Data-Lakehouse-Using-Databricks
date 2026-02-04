@@ -8,22 +8,15 @@ This project simulates a retail organization struggling with fragmented data acr
 
 ## 2. Challenges
 
-• Multiples data sources
-
-• Finance and operations don’t report the same numbers
-
-• Reports are produced too late
-
-• Operations data are difficult to use / not easily actionable
-
-• IT is constantly in firefighting mode
-
-• 80% time on data prep
-
-• Slow query performance
-
-• No self service capability
-
+- Multiples data sources
+- Finance and operations don’t report the same numbers
+- Reports are produced too late  
+- Operations data are difficult to use / not easily actionable  
+- IT is constantly in firefighting mode 
+- 80% time on data prep
+- Slow query performance
+- No self service capability
+  
 ---
 
 ## 3. Data-driven solution
@@ -62,24 +55,22 @@ To address these challenges, the solution focuses on separating ingestion (Bronz
 
 ## 6. Expected Business Impact
 
-• 80% Times saving
-(analysts now focus on insights instead of SQL gymnastics)
-• Self-service Enabled
-(Business users create theirs own reports from the star schema)
-• 10x Query time performance
-• Isolated analytics workload
-(Analytics workload runs on Lakehouse, not on operational system)
-• Accurate numbers, faster closing cycles
-• Governance embedded from day one
-• Aligned decision-making enabled by a single source of truth
-
+- 80% Times saving (analysts now focus on insights instead of SQL gymnastics)
+- Self-service Enabled (Business users create theirs own reports from the star schema)
+- 10x Query time performance  
+- Isolated analytics workload (Analytics workload runs on Lakehouse, not on operational system)
+- Accurate numbers, faster closing cycles 
+- 80% time on data prep
+- Governance embedded from day one
+- Aligned decision-making enabled by a single source of truth
+  
 ---
 
 ## 7. What i would do differently in a production environment
 
-• Introduce incremental ingestion and CDC instead of full loads
-• Add observability (job failures, data freshness, usage metrics)
-• Extend governance with domain-based access control and data contracts
-• Add data quality checks and SLA monitoring (e.g. expectations, alerts)
-• Optimize cost via cluster policies and workload isolation
-• Implement CI/CD pipelines for notebooks and data transformations ...
+- Introduce incremental ingestion and CDC instead of full loads 
+- Add observability (job failures, data freshness, usage metrics)  
+- Extend governance with domain-based access control and data contracts  
+- Add data quality checks and SLA monitoring (e.g. expectations, alerts)
+- Optimize cost via cluster policies and workload isolation
+- Implement CI/CD pipelines for notebooks and data transformations ...
