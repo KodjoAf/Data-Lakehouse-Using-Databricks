@@ -2,7 +2,9 @@
 
 ## 1. Business context
 
-This project simulates a retail organization struggling with fragmented data across finance and operations, slow reporting cycles, and limited analytics scalability. The objective was to design a Lakehouse architecture that delivers trusted, analytics-ready data for faster and aligned decision-making.
+This repository demonstrates a complete Lakehouse architecture implementation using Databricks for a retail company use case. It showcases the full data value stream—from raw data ingestion to analytics-ready data products—following the Medallion (Bronze–Silver–Gold) pattern.
+
+The goal of this project is to illustrate how a modern Lakehouse can resolve common enterprise data challenges, enable self-service analytics, and embed governance from day one.
 
 ---
 
