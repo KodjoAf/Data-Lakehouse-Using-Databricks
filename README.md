@@ -1,10 +1,18 @@
 # End-to-End Lakehouse Architecture (Bronze–Silver–Gold)
 
-## 1. Business context
-
 This repository demonstrates a complete Lakehouse architecture implementation using Databricks for a retail company use case. It showcases the full data value stream—from raw data ingestion to analytics-ready data products—following the Medallion (Bronze–Silver–Gold) pattern.
 
 The goal of this project is to illustrate how a modern Lakehouse can resolve common enterprise data challenges, enable self-service analytics, and embed governance from day one.
+
+## 1. Business context
+
+The simulated organization is a retail company with multiple operational and financial data sources. Data consumers struggle to trust reports, analytics delivery is slow, and IT teams spend most of their time preparing data instead of enabling insights.
+
+The business objective is to:
+- Align finance and operations on a single source of truth
+- Reduce reporting and closing cycles
+- Enable fast, self-service analytics for business users  
+- Move analytics workloads off operational systems
 
 ---
 
