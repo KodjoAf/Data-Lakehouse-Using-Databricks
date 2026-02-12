@@ -50,7 +50,7 @@ Raw data is ingested once, progressively refined, and finally modeled into a dim
 - Standardized, trusted datasets for downstream use
 
 ### 🥇 Gold Layer – Business Data Model
-- DDimensional modeling using a star schema
+- Dimensional modeling using a star schema
 - Fact and dimension tables aligned with business processes
 - Optimized for BI tools and ad-hoc analytics
 - Enables true self-service for business users
