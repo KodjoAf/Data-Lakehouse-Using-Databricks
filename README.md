@@ -80,7 +80,6 @@ Raw data is ingested once, progressively refined, and finally modeled into a dim
 - 10x Query time performance  
 - Isolated analytics workload (Analytics workload runs on Lakehouse, not on operational system)
 - Accurate numbers, faster closing cycles 
-- 80% time on data prep
 - Governance embedded from day one
 - Aligned decision-making enabled by a single source of truth
   
